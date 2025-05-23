@@ -1,5 +1,3 @@
-# frontend/Dockerfile
-
 # Stage 1: Build the Next.js application
 FROM node:20-alpine AS builder
 WORKDIR /app
