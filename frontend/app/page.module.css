@@ -1,0 +1,26 @@
+/* frontend/app/page.module.css */
+.main {
+  padding: 2rem;
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* New class for the <ul> element */
+.itemList {
+  list-style: none;
+  padding: 0;
+}
+
+/* New class for the <li> elements */
+.itemEntry {
+  background-color: #f0f0f0;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* You can still style elements within a local class */
+.itemEntry strong {
+  color: #333;
+}
