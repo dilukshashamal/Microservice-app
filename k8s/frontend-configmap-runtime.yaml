@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-runtime-config
+data:
+  config.json: |
+    {
+      "API_URL": "http://127.0.0.1:56738"
+    }

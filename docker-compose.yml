@@ -24,13 +24,13 @@ services:
     ports:
       - "3000:3000" # Map host port 3000 to container port 3000
     volumes:
-      - ./frontend:/app # Mount local frontend code (useful for dev if not for build)
+      - ./frontend:/app # Mount local frontend code
       - /app/node_modules # Prevent local node_modules from overwriting container's
       - /app/.next # Prevent local .next from overwriting container's
     depends_on:
       - backend
     environment:
-      NODE_ENV: development # Or production if you want to test the prod build
+      NODE_ENV: development
     networks:
       - app-network
 
